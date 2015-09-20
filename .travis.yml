@@ -21,7 +21,7 @@ after_success:
   - coveralls
   - mv -v coverage.xml shippable/codecoverage/
   - mv -v unittests.xml shippable/testresults/
-notifications:
-  slack:
-    rooms:
-      - organice:uPGToVwXE2IYAwn4hFFudPJ5#notifications
+# notifications:
+#   slack:
+#     rooms:
+#       - organice:uPGToVwXE2IYAwn4hFFudPJ5#notifications
